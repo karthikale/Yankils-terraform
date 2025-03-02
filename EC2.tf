@@ -25,6 +25,6 @@ resource "aws_security_group" "demo-server-sg"{
         ipv6_cidr_blocks = ["::/0"]
     }
     tags = {
-        Name = "ssh-ports"
+        Name = "sshports"
     }
 }
